@@ -1,8 +1,9 @@
 - Server : 
-chạy file ./openvpn-install.sh
+chạy file
+```./openvpn-install.sh```
 Chạy hết theo default
 Khi nào đến mục tạo client thì giữ lại file.opvn
-Sửa file /etc/openvpn/server/server.conf
+Sửa file ```/etc/openvpn/server/server.conf```
 xóa dòng hoặc đánh đấu # cho dòng 
 ```push "redirect-gateway def1 bypass-dhcp"```
 ==> giữ ip trong lan
@@ -18,9 +19,10 @@ Lưu ý: trong trường hợp public ip bị thay đổi thì làm lại từ �
 
 
 - Client
-chạy file ./openvpn-install.sh
+chạy file 
+```./openvpn-install.sh```
 vẫn chạy hết theo default
-Copy file.opvn (từ server) cho client vào thư mục /etc/openvpn/client => ghi đè vào file client.conf nếu đã có
+Copy file.opvn (từ server) cho client vào thư mục ```/etc/openvpn/client``` => ghi đè vào file ```client.conf``` nếu đã có
 khởi động bằng lệnh 
 ```sudo systemctl start openvpn-client@client```
 

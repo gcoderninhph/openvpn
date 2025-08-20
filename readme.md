@@ -1,12 +1,12 @@
-- Server : 
+- Server: 
+
 chạy file
 ```./openvpn-install.sh```
 Chạy hết theo default
 Khi nào đến mục tạo client thì giữ lại file.opvn
 
-
 Sửa file ```/etc/openvpn/server/server.conf```
-xóa dòng hoặc đánh đấu # cho dòng 
+Xóa dòng hoặc đánh đấu # cho dòng 
 ```push "redirect-gateway def1 bypass-dhcp"```
 ==> giữ ip trong lan
 Lưu ý, mạng trong lan ip trong giải (/25) 192.167.x.1 => 192.167.x.127

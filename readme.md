@@ -3,6 +3,8 @@ chạy file
 ```./openvpn-install.sh```
 Chạy hết theo default
 Khi nào đến mục tạo client thì giữ lại file.opvn
+
+
 Sửa file ```/etc/openvpn/server/server.conf```
 xóa dòng hoặc đánh đấu # cho dòng 
 ```push "redirect-gateway def1 bypass-dhcp"```

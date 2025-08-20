@@ -21,10 +21,10 @@ Lưu ý: trong trường hợp public ip bị thay đổi thì làm lại từ �
 
 
 - Client
-chạy file 
-```./openvpn-install.sh```
-vẫn chạy hết theo default
+
+Chạy file ```./openvpn-install.sh```, vẫn chạy hết theo default.
+
 Copy file.opvn (từ server) cho client vào thư mục ```/etc/openvpn/client``` => ghi đè vào file ```client.conf``` nếu đã có
-khởi động bằng lệnh 
-```sudo systemctl start openvpn-client@client```
+
+khởi động bằng lệnh ```sudo systemctl start openvpn-client@client```
 
